@@ -1,5 +1,11 @@
 Page({
-    onShow() {
-        console.log('on XXXX show yes!');
+    onLoad() {
+        this.setData({
+            date: new Date().toISOString()
+        })
+    },
+
+    go() {
+        wx.navigateTo({ url: '/pages/page2/index'})
     }
 })

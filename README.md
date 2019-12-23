@@ -11,6 +11,8 @@ npm install
 npm run dev
 ```
 
+开发者工具 -> 新建小程序 -> 打开此目录
+
 ## 构建
 ```
 npm run build
